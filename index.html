@@ -1,34 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>twoCode Online</title>
     <link rel="stylesheet" href="styles/tailwind.css">
 </head>
-in    <h1 class="text-3xl">Weclome to &#x3c;twoCode&#x3e;</h1>
-    <i>There's no <em>two</em> ways about it - we're the best in the buinsess</i>
-    <p>
-        Step in<em>two</em> a universe where you can change the world around you, where you can create with just a few lines of code
-    </p>
-    <p>
-        We aim to empower young programmers <em>two</em> change the world by teaching them essential skills in the digital age
-    </p>
-    <p>
-        Our live 1-on-1 and group classes and recorded lessons are built from the ground up <em>two</em> create a bedrock foundation that allows our students to continue learning on their own
-    </p>
-    <p>
-        An investment in <em>twoCode</em> classes is an investment in a student's future.
-    </p>
-    <p>
-        <button>Pricing</button>
+<style>
+.bob {
+    animation: bob 2s infinite linear;
+    animation-delay: 1.5s;
+}
+@keyframes bob {
+    0% {
+        transform: translateY(0);
+    }
+    10% {
+        transform: translateY(0);
+    }
+    30% {
+        transform: translateY(10px);
+    }
+    40% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+    90% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+</style>
+<body class="bg-gray-50 dark:bg-gray-900 dark:text-gray-50">
+    <!-- landing -->
+    <div class="h-[100vh] flex justify-center items-center text-center relative p-4">
+        <div>
+            <h1 class="text-5xl mb-4">Weclome to <span class="text-gray-500 font-mono">&#x3c;twoCode&#x3e;</span></h1>
+            <h2 class="text-xl italic dark:text-gray-200">There's no <em>two</em> ways about it - we're the best in the
+                buinsess</h2>
+        </div>
+        <span class="bob absolute bottom-6 left-[calc(50% - 50%)] text-[20px] dark:text-gray-500">scroll down</span>
+    </div>
+    <div class="py-6 px-10 text-center">
+        <p class="my-2 text-lg">Step in<em>two</em> a universe where you can change the world around you, where you can create with just a
+            few lines of code</p>
+        <p class="my-2 text-lg">We aim to empower young programmers to change the world by teaching them essential skills in the digital age
+        </p>
+        <p class="my-2 text-lg">Our personalized 1-on-1 lessons are built from the ground up to create a bedrock foundation that allows our
+            students to continue learning on their own</p>
+        <p class="my-2 text-lg">An investment in <em>twoCode</em> classes is an investment in a student's future.</p>
+        <br>
+        <h2 class="text-4xl">Courses</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div class="mx-auto inline-block max-w-[300px] h-[300px] p-4 m-4 bg-gray-100 dark:bg-gray-800 dark:text-gray-50 rounded-xl shadow-xl">
+                <h3 class="text-2xl my-2">Python Fundementals</h3>
+                <p>Learn the basics of Python with fun, interactive 30 1-on-1 lessons over video call. With hands-on
+                    projects, all students learn quickly and fully.</p>
+            </div>
+            <div class="mx-auto inline-block max-w-[300px] h-[300px] p-4 m-4 bg-gray-100 dark:bg-gray-800 dark:text-gray-50 rounded-xl shadow-xl">
+                <h3 class="text-2xl my-2">Web Development Basics</h3>
+                <p>Learn to build and style your own websites with HTML and CSS! In this fun course, you'll learn these
+                    technologies by building projects like a personal website.</p>
+            </div>
+            <div class="mx-auto inline-block max-w-[300px] h-[300px] p-4 m-4 bg-gray-100 dark:bg-gray-800 dark:text-gray-50 rounded-xl shadow-xl">
+                <h3 class="text-2xl my-2">JavaScript Fundementals</h3>
+                <p>Have you learned the basics of web development, but want to learn how to build interactive websites
+                    like games and web apps? This course is perfect to learn the basics of JavaScript by building
+                    awesome projects you can show your friends.</p>
+            </div>
+            <div class="mx-auto inline-block max-w-[300px] h-[300px] p-4 m-4 bg-gray-100 dark:bg-gray-800 dark:text-gray-50 rounded-xl shadow-xl">
+                <h3 class="text-2xl my-2">Linux Commands Basics</h3>
+                <p>Want to learn more about the operating system that runs the internet? Learn about Linux servers and
+                    desktops, the must-know commands for system management, and widely used technologies like Docker.
+                </p>
+            </div>
+            <div class="mx-auto inline-block max-w-[300px] h-[300px] p-4 m-4 bg-gray-100 dark:bg-gray-800 dark:text-gray-50 rounded-xl shadow-xl">
+                <h3 class="text-2xl my-2">Development Technologies</h3>
+                <p>This very short course covers the technology that every developer needs to know, from source code
+                    management with Git and GitHub to development with popular IDEs like VSCode and cutting-edge AI
+                    technologies like GitHub Copilot.</p>
+            </div>
+        </div>
+        <br>
+        <p>CONTACT US FOR MORE INFORMATION: <a class="underline uppercase"
+                href="mailto:hnasheralneam@gmail.com">hnasheralneam@gmail.com</p>
+        </p>
+        <!-- <button>Pricing</button>
         <button>Classes</button>
-        <button>Learn more</button>
-    </p>
+        <button>Learn more</button> -->
+    </div>
 </body>
-<footer>
-    <h2>Contanct</h2>
-    <p>twocodetutorials@email.com</p>
+<footer class="mt-10 p-4 bg-black text-white">
+    <h2 class="font-bold">Contact Us</h2>
+    <a class="underline" href="mailto:hnasheralneam@gmail.com">hnasheralneam@gmail.com</p>
 </footer>
-</html>
 
+</html>

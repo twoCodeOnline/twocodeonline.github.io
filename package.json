@@ -8,12 +8,8 @@
   },
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "In the working directory, run `npm install`, then `npm run tailwind`",
   "devDependencies": {
     "tailwindcss": "^3.4.6"
-  },
-  "dependencies": {
-    "ejs": "^3.1.10",
-    "express": "^4.19.2"
   }
 }

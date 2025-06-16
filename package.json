@@ -10,6 +10,6 @@
   "license": "ISC",
   "description": "In the working directory, run `npm install`, then `npm run tailwind`",
   "devDependencies": {
-    "tailwindcss": "^3.4.6"
+    "tailwindcss": "^3.4.17"
   }
 }

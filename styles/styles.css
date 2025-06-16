@@ -1,0 +1,35 @@
+.bob {
+   animation: bob 2s infinite linear;
+   animation-delay: 1.5s;
+}
+
+@keyframes bob {
+   0% { transform: translateY(0); }
+   10% { transform: translateY(0); }
+   30% { transform: translateY(10px); }
+   40% { transform: translateY(0); }
+   50% { transform: translateY(10px); }
+   90% { transform: translateY(0); }
+   100% { transform: translateY(0); }
+}
+
+.matrix {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100vw;
+   height: 100vh;
+
+   font-family: monospace;
+   font-size: 18px;
+   color: #39ff14;
+   font-weight: bold;
+   line-height: 1.2rem;
+
+   overflow: hidden;
+   background-color: #000;
+   grid-gap: 5rem;
+
+   z-index: -1;
+   pointer-events: none;
+}
